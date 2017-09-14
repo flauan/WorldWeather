@@ -2140,7 +2140,7 @@ allcity_df.head()
 #############################
     
 plt.scatter(allcity_df["Lat"], allcity_df["Max Temp"], marker="o")
-plt.title("City Latitude vs Max Temperature")
+plt.title("City Latitude vs Max Temperature (09/13/2017)")
 plt.ylabel("Max Temperature (F)")
 plt.xlabel("Latitude")
 plt.grid(True)
@@ -2160,7 +2160,7 @@ plt.show()
 
    
 plt.scatter(allcity_df["Lat"], allcity_df["Humidity"], marker="o")
-plt.title("City Latitude vs Humidity")
+plt.title("City Latitude vs Humidity (09/13/2017)")
 plt.ylabel("Humidity (%)")
 plt.xlabel("Latitude")
 plt.grid(True)
@@ -2178,7 +2178,7 @@ plt.show()
 #-- and plot relationship
 ####################################
 plt.scatter(allcity_df["Lat"], allcity_df["Cloudiness"], marker="o")
-plt.title("City Latitude vs Cloudiness")
+plt.title("City Latitude vs Cloudiness (09/13/2017)")
 plt.ylabel("Cloudiness (%)")
 plt.xlabel("Latitude")
 plt.grid(True)
@@ -2196,7 +2196,7 @@ plt.show()
 #-- and plot relationship
 #####################################   
 plt.scatter(allcity_df["Lat"], allcity_df["Wind Speed"], marker="o")
-plt.title("City Latitude vs Wind Speed")
+plt.title("City Latitude vs Wind Speed (09/13/2017)")
 plt.ylabel("Wind Speed (miles/hr)")
 plt.xlabel("Latitude")
 plt.grid(True)
