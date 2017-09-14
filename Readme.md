@@ -874,7 +874,7 @@ city_df
 # values passed into the nearest city module
 #########################################################################
 
-gkey = "AIzaSyA_Clyz3478YAUnsESNHE5dyktvvMoa-vw"
+gkey = "xxxxxxxxxxxxxxxxx"
 city_latlng_df=pd.DataFrame(columns=('city_name','country_code',"lat","lng"),index=np.arange(1))
 tcity_latlng_df=pd.DataFrame(columns=('city_name','country_code',"lat","lng"),index=np.arange(1))
 
@@ -1376,7 +1376,7 @@ city_sample_df
 #  Using Openweathermap
 #################################
 
-api_key = "c5415d350672540f27c50a3592a8e8aa"
+api_key = "xxxxxxxxxxxxxxxxxxxxxx"
 url = "http://api.openweathermap.org/data/2.5/weather?"
 units = "Imperial"
 
